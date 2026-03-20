@@ -1,5 +1,7 @@
 setxkbmap -variant dvorak
-bash ~/.fehbg
-unclutter &
-picom --backend glx --vsync --fade-in-step=1 --fade-out-step=1 &
-bspwm
+xrandr --output DP-1 --mode 2560x1440 --rate 240
+xrdb -merge ~/.Xresources
+xset m 0 0 &
+xsetroot -cursor_name left_ptr &
+
+exec bspwm
