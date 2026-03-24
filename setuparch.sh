@@ -16,9 +16,9 @@ cd ..
 # Install useful software
 yay -S  aerc arp-scan aws-vault bind bitwarden breeze-cursors bspwm dmenu dosfsntools eza feh firejail gdb go gvim  \
 	hashcat ltrace lxappearance macchanger maim man-pages mpv nano neovide neovim nmap noto-fonts noto-fonts-cjk \
-	noto-fonts-emoji noto-fonts-extra picom polybar pulsemixer python-pipx ranger shellcheck strace sxhkd \
-	tcpdump tor torbrowser-launcher tree-sitter-cli ttf-hack-nerd ueberzugpp unclutter unzip valgrind vlc \
-	wget wireshark-qt xclip xorg xorg-xinit yt-dlp zip zsh zsh-syntax-highlighting
+	noto-fonts-emoji noto-fonts-extra perl-authen-sasl perl-io-socket-ssl picom polybar pulsemixer python-pipx \
+	ranger shellcheck strace sxhkd tcpdump tor torbrowser-launcher tree-sitter-cli ttf-hack-nerd ueberzugpp \
+	unclutter unzip valgrind vlc wget wireshark-qt xclip xorg xorg-xinit yt-dlp zip zsh zsh-syntax-highlighting
 
 # Download software from aur
 yay -S brave-bin gruvbox-dark-gtk htop-vim prismlauncher webcord
