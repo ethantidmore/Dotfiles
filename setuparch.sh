@@ -14,7 +14,7 @@ makepkg -si
 cd ..
 
 # Install useful software
-yay -S  aerc arp-scan aws-vault bind bitwarden breeze-cursors bspwm dmenu dosfsntools eza feh firejail gdb go gvim  \
+yay -S  aerc arp-scan aws-vault b4 bind bitwarden breeze-cursors bspwm dmenu dosfsntools eza feh firejail gdb go gvim  \
 	hashcat ltrace lxappearance macchanger maim man-pages mpv nano neovide neovim nmap noto-fonts noto-fonts-cjk \
 	noto-fonts-emoji noto-fonts-extra perl-authen-sasl perl-io-socket-ssl picom polybar prismlauncher pulsemixer \
 	python-pipx anger shellcheck strace sxhkd tcpdump tor torbrowser-launcher tree-sitter-cli ttf-hack-nerd ueberzugpp \
