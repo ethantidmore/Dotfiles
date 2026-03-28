@@ -14,11 +14,12 @@ makepkg -si
 cd ..
 
 # Install useful software
-yay -S  aerc arp-scan aws-vault b4 bind bitwarden breeze-cursors bspwm dmenu dosfsntools eza feh firejail gdb go gvim  \
-	hashcat ltrace lxappearance macchanger maim man-pages mpv nano neovide neovim nmap noto-fonts noto-fonts-cjk \
-	noto-fonts-emoji noto-fonts-extra perl-authen-sasl perl-io-socket-ssl picom polybar prismlauncher pulsemixer \
-	python-pipx anger strace sxhkd tcpdump tor torbrowser-launcher tree-sitter-cli ttf-hack-nerd ueberzugpp \
-	unclutter unzip valgrind vlc wget wireshark-qt xclip xorg xorg-xinit yt-dlp zip zsh zsh-syntax-highlighting
+yay -S  aerc arp-scan aws-vault b4 bind bitwarden breeze-cursors bspwm dmenu dosfstools dtc eza feh firejail \
+	gdb go gvim hashcat libyaml ltrace lxappearance macchanger maim man-pages mpv nano neovide neovim nmap \
+	noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra perl-authen-sasl perl-io-socket-ssl picom  \
+	polybar prismlauncher pulsemixer python-pipx ranger swig strace sxhkd tcpdump tor torbrowser-launcher \ 
+	tree-sitter-cli ttf-hack-nerd ueberzugpp unclutter unzip valgrind vlc wget wireshark-qt xclip xorg \
+	xorg-xinit yamllint yt-dlp zip zsh zsh-syntax-highlighting
 
 # Download software from aur
 yay -S brave-bin gruvbox-dark-gtk htop-vim webcord
