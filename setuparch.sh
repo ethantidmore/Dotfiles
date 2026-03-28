@@ -24,6 +24,9 @@ yay -S  aerc arp-scan aws-vault b4 bind bitwarden breeze-cursors bspwm dmenu dos
 # Download software from aur
 yay -S brave-bin gruvbox-dark-gtk htop-vim webcord
 
+# Install python packages
+pipx install dtschema
+
 # Install dotfiles
 cp .fehbg /home/"$USER"
 cp .vimrc /home/"$USER"
