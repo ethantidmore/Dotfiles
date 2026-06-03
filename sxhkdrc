@@ -33,13 +33,18 @@ super + z
 # APPLICATIONS (Alphabetized by Key)
 # -------------------------------------------------------------------
 
+# Open Aerc
+
+super + q
+	st -e sh -c "cd ~/linux && aerc"
+
 # Open Blueberry (Bluetooth)
 super + b
     blueberry
 
-# Start Discord (Webcord)
+# Start Discord (vesktop)
 super + d
-    webcord
+    vesktop
 
 # Open htop (Process Viewer)
 super + h
