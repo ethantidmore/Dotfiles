@@ -8,17 +8,20 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+--vim.opt_local.textwidth = 100
+--vim.opt_local.colorcolumn = "101"
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = 8
+vim.opt.shiftwidth = 8
+vim.opt_local.expandtab = false 
 vim.opt.cursorline = true
 vim.opt.wildmenu = true
 vim.opt.termguicolors = true 
 vim.opt.background = "dark"
 
 require("lazy").setup({
-    { 
+	{ 
         "ellisonleao/gruvbox.nvim", 
         priority = 1000, 
         config = function()
