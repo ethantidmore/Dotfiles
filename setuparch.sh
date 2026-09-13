@@ -13,7 +13,7 @@ cd yay || exit
 makepkg -si
 cd ..
 
-# Install usefull software
+# Install useful software
 yay -S  aarch64-linux-gnu-gcc aerc arp-scan b4 bind bitwarden breeze-cursors bspwm clang dmenu dosfstools \
 	dtc eza feh firejail gdb go gvim hashcat libyaml ltrace lxappearance macchanger maim man-pages mpv nano \
 	neovide neovim nmap noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra perl-authen-sasl \
