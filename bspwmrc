@@ -1,5 +1,6 @@
 #!/bin/sh
 
+/usr/lib/xdg-desktop-portal-gtk &
 bash ~/.fehbg
 picom --backend xrender --vsync --fade-in-step=1 --fade-out-step=1 &
 polybar &
