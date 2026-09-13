@@ -4,8 +4,6 @@
 #/_______ \/_______  /\___|_  / 
 #        \/        \/       \/  
 
-# Zings's zshrc
-
 # If using MacOS change /home/ to /Users/
 
 # Enables colors
@@ -22,10 +20,16 @@ _comp_options+=(globdots)
 
 # PS1
 
-PS1="%B%{$fg[green]%}[%{$fg[green]%}%n%{$fg[green]%}@%{$fg[green]%}%M %{$fg[green]%}%~%{$fg[green]%}]$%b "
+PS1="%B%{$fg[black]%}[%{$fg[white]%}%n%{$fg[yellow]%}@%{$fg[white]%}%M %{$fg[yellow]%}%~%{$fg[black]%}]%{$fg[white]%}$%b "
+
+# History
+HISTFILE=~/.zsh_history       
+HISTSIZE=10000               
+SAVEHIST=10000 
 
 # Aliases
 
+alias copy="xclip -selection clipboard"
 alias ls='eza'
 alias la='eza -a'
 alias ll='eza -la'
@@ -37,11 +41,10 @@ alias zshrc='vim /home/$USER/.zshrc'
 
 export PATH=/home/$USER/.local/bin:$PATH
 
-# For aws-vault
+# Toolchains
 
-export AWS_VAULT_BACKEND=pass
-export PASSWORD_STORE_DIR=~/.password-store
-export GPG_TTY=$(tty)
+export PATH="$HOME/toolchains/loongarch64-linux/bin:$PATH"
+export PATH="$HOME/toolchains/riscv64-linux/bin:$PATH"
 
 # Plugins
 
