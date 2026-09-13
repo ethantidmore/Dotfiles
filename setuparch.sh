@@ -17,18 +17,16 @@ cd ..
 yay -S  aarch64-linux-gnu-gcc aerc arp-scan b4 bind bitwarden breeze-cursors bspwm clang dmenu dosfstools \
 	dtc eza feh firejail gdb go gvim hashcat libyaml ltrace lxappearance macchanger maim man-pages mpv nano \
 	neovide neovim nmap noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra perl-authen-sasl \
-	perl-io-socket-ssl picom polybar prismlauncher pulsemixer python-gitpython python-pipx python-ply 
-	ranger rust rust-bindgen rust-src swig strace sxhkd tcpdump tor torbrowser-launcher tree-sitter-cli \ 
-	ttf-hack-nerd ueberzugpp unclutter unzip valgrind vlc wget wireshark-qt xclip xorg xorg-xinit yamllint \ 
-	yt-dlp zip zsh zsh-syntax-highlighting
+	perl-io-socket-ssl picom polybar prismlauncher pulsemixer python-gitpython python-pipx python-ply \
+	ranger rust rust-bindgen rust-src spotify-launcher strace swig sxhkd tcpdump tor torbrowser-launcher \
+	tree-sitter-cli ttf-hack-nerd ueberzugpp unclutter unzip valgrind vlc wget wireshark-qt xclip xorg \
+	xorg-xinit yamllint yt-dlp zip zsh zsh-syntax-highlighting
 
 # Download software from aur
-yay -S brave-bin gruvbox-dark-gtk htop-vim spotify vesktop-bin
-
-# Install python packages
-pipx install dtschema
+yay -S brave-bin gruvbox-dark-gtk htop-vim vesktop-bin
 
 # Install dotfiles
+cp .Xresources /home/"$USER"
 cp .fehbg /home/"$USER"
 cp .vimrc /home/"$USER"
 cp .xinitrc /home/"$USER"
