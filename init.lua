@@ -8,8 +8,6 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
---vim.opt_local.textwidth = 100
---vim.opt_local.colorcolumn = "101"
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.tabstop = 8
